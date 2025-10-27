@@ -2,15 +2,15 @@
 Chinese Medical Relation Extraction Model Combining Dilated Convolution and Graph Attention
 
 # Usage
-1. Get pre-trained BERT model for PyTorch
+## 1. Get pre-trained BERT model for PyTorch
 
 Download chinese-roberta-wwm-ext which contains pytroch_model.bin, vocab.txt and config.json. Put these under ./pretrain_models.
 
-2. Build Data
+## 2. Build Data
 
 Put our preprocessed datasets under ./data.
 
-3. Train
+## 3. Train
 
 For example, to train the model for CMeIE dataset:
 
@@ -22,7 +22,7 @@ python train.py \
 --ensure_corres \
 --ensure_rel
 
-4. Evaluate
+## 4. Evaluate
 
 For example, to train the model for CMeIE dataset:
 
