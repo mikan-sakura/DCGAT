@@ -1,0 +1,347 @@
+2025-07-18 19:13:26 - INFO - Ablation settings:
+2025-07-18 19:13:26 - INFO - - POS embeddings: True
+2025-07-18 19:13:26 - INFO - - Token embeddings: True
+2025-07-18 19:13:26 - INFO - - DGCNN fusion: False
+2025-07-18 19:13:26 - INFO - - Gate fusion: True
+2025-07-18 19:13:26 - INFO - - GAT module: True
+2025-07-18 19:13:26 - INFO - - Correspondence module: True
+2025-07-18 19:13:26 - INFO - - Relation module: True
+2025-07-18 19:13:26 - INFO - - ex_index: 5
+2025-07-18 19:13:26 - INFO - Load pre-train model weights...
+2025-07-18 19:13:28 - INFO - -done
+2025-07-18 19:13:28 - INFO - Starting training for 100 epoch(s)
+2025-07-18 19:15:14 - INFO - Epoch 1/100
+2025-07-18 19:18:17 - INFO - - Val metrics:
+correct_num: 0.000; predict_num: 0.000; gold_num: 8072.000; precision: 0.000; recall: 0.000; f1: 0.000
+2025-07-18 19:18:20 - INFO - Epoch 2/100
+2025-07-18 19:21:20 - INFO - - Val metrics:
+correct_num: 335.000; predict_num: 912.000; gold_num: 8072.000; precision: 0.367; recall: 0.042; f1: 0.075
+2025-07-18 19:21:27 - INFO - - Found new best F1
+2025-07-18 19:21:27 - INFO - Epoch 3/100
+2025-07-18 19:24:29 - INFO - - Val metrics:
+correct_num: 1656.000; predict_num: 3517.000; gold_num: 8072.000; precision: 0.471; recall: 0.205; f1: 0.286
+2025-07-18 19:24:35 - INFO - - Found new best F1
+2025-07-18 19:24:35 - INFO - Epoch 4/100
+2025-07-18 19:27:34 - INFO - - Val metrics:
+correct_num: 3183.000; predict_num: 6426.000; gold_num: 8072.000; precision: 0.495; recall: 0.394; f1: 0.439
+2025-07-18 19:27:42 - INFO - - Found new best F1
+2025-07-18 19:27:42 - INFO - Epoch 5/100
+2025-07-18 19:30:43 - INFO - - Val metrics:
+correct_num: 2188.000; predict_num: 3869.000; gold_num: 8072.000; precision: 0.566; recall: 0.271; f1: 0.366
+2025-07-18 19:30:45 - INFO - Epoch 6/100
+2025-07-18 19:33:46 - INFO - - Val metrics:
+correct_num: 3091.000; predict_num: 5815.000; gold_num: 8072.000; precision: 0.532; recall: 0.383; f1: 0.445
+2025-07-18 19:33:53 - INFO - - Found new best F1
+2025-07-18 19:33:53 - INFO - Epoch 7/100
+2025-07-18 19:36:54 - INFO - - Val metrics:
+correct_num: 3765.000; predict_num: 6892.000; gold_num: 8072.000; precision: 0.546; recall: 0.466; f1: 0.503
+2025-07-18 19:37:01 - INFO - - Found new best F1
+2025-07-18 19:37:01 - INFO - Epoch 8/100
+2025-07-18 19:40:02 - INFO - - Val metrics:
+correct_num: 4019.000; predict_num: 7136.000; gold_num: 8072.000; precision: 0.563; recall: 0.498; f1: 0.529
+2025-07-18 19:40:08 - INFO - - Found new best F1
+2025-07-18 19:40:08 - INFO - Epoch 9/100
+2025-07-18 19:43:10 - INFO - - Val metrics:
+correct_num: 3916.000; predict_num: 6839.000; gold_num: 8072.000; precision: 0.573; recall: 0.485; f1: 0.525
+2025-07-18 19:43:12 - INFO - Epoch 10/100
+2025-07-18 19:46:11 - INFO - - Val metrics:
+correct_num: 4145.000; predict_num: 7092.000; gold_num: 8072.000; precision: 0.584; recall: 0.514; f1: 0.547
+2025-07-18 19:46:18 - INFO - - Found new best F1
+2025-07-18 19:46:18 - INFO - Epoch 11/100
+2025-07-18 19:49:19 - INFO - - Val metrics:
+correct_num: 4518.000; predict_num: 8130.000; gold_num: 8072.000; precision: 0.556; recall: 0.560; f1: 0.558
+2025-07-18 19:49:26 - INFO - - Found new best F1
+2025-07-18 19:49:26 - INFO - Epoch 12/100
+2025-07-18 19:52:28 - INFO - - Val metrics:
+correct_num: 3558.000; predict_num: 5421.000; gold_num: 8072.000; precision: 0.656; recall: 0.441; f1: 0.527
+2025-07-18 19:52:30 - INFO - Epoch 13/100
+2025-07-18 19:55:31 - INFO - - Val metrics:
+correct_num: 4115.000; predict_num: 7004.000; gold_num: 8072.000; precision: 0.588; recall: 0.510; f1: 0.546
+2025-07-18 19:55:33 - INFO - Epoch 14/100
+2025-07-18 19:58:34 - INFO - - Val metrics:
+correct_num: 4109.000; predict_num: 6211.000; gold_num: 8072.000; precision: 0.662; recall: 0.509; f1: 0.575
+2025-07-18 19:58:40 - INFO - - Found new best F1
+2025-07-18 19:58:40 - INFO - Epoch 15/100
+2025-07-18 20:01:42 - INFO - - Val metrics:
+correct_num: 4459.000; predict_num: 7547.000; gold_num: 8072.000; precision: 0.591; recall: 0.552; f1: 0.571
+2025-07-18 20:01:44 - INFO - Epoch 16/100
+2025-07-18 20:04:44 - INFO - - Val metrics:
+correct_num: 4193.000; predict_num: 6702.000; gold_num: 8072.000; precision: 0.626; recall: 0.519; f1: 0.568
+2025-07-18 20:04:46 - INFO - Epoch 17/100
+2025-07-18 20:07:46 - INFO - - Val metrics:
+correct_num: 4102.000; predict_num: 6874.000; gold_num: 8072.000; precision: 0.597; recall: 0.508; f1: 0.549
+2025-07-18 20:07:48 - INFO - Epoch 18/100
+2025-07-18 20:10:49 - INFO - - Val metrics:
+correct_num: 4325.000; predict_num: 7015.000; gold_num: 8072.000; precision: 0.617; recall: 0.536; f1: 0.573
+2025-07-18 20:10:51 - INFO - Epoch 19/100
+2025-07-18 20:13:52 - INFO - - Val metrics:
+correct_num: 4403.000; predict_num: 6734.000; gold_num: 8072.000; precision: 0.654; recall: 0.545; f1: 0.595
+2025-07-18 20:13:58 - INFO - - Found new best F1
+2025-07-18 20:13:58 - INFO - Epoch 20/100
+2025-07-18 20:16:58 - INFO - - Val metrics:
+correct_num: 4317.000; predict_num: 6779.000; gold_num: 8072.000; precision: 0.637; recall: 0.535; f1: 0.581
+2025-07-18 20:17:01 - INFO - Epoch 21/100
+2025-07-18 20:20:02 - INFO - - Val metrics:
+correct_num: 4449.000; predict_num: 6799.000; gold_num: 8072.000; precision: 0.654; recall: 0.551; f1: 0.598
+2025-07-18 20:20:09 - INFO - - Found new best F1
+2025-07-18 20:20:09 - INFO - Epoch 22/100
+2025-07-18 20:23:09 - INFO - - Val metrics:
+correct_num: 4241.000; predict_num: 6386.000; gold_num: 8072.000; precision: 0.664; recall: 0.525; f1: 0.587
+2025-07-18 20:23:11 - INFO - Epoch 23/100
+2025-07-18 20:26:12 - INFO - - Val metrics:
+correct_num: 4603.000; predict_num: 7237.000; gold_num: 8072.000; precision: 0.636; recall: 0.570; f1: 0.601
+2025-07-18 20:26:18 - INFO - - Found new best F1
+2025-07-18 20:26:18 - INFO - Epoch 24/100
+2025-07-18 20:29:19 - INFO - - Val metrics:
+correct_num: 3997.000; predict_num: 5529.000; gold_num: 8072.000; precision: 0.723; recall: 0.495; f1: 0.588
+2025-07-18 20:29:21 - INFO - Epoch 25/100
+2025-07-18 20:32:22 - INFO - - Val metrics:
+correct_num: 4571.000; predict_num: 7671.000; gold_num: 8072.000; precision: 0.596; recall: 0.566; f1: 0.581
+2025-07-18 20:32:24 - INFO - Epoch 26/100
+2025-07-18 20:35:24 - INFO - - Val metrics:
+correct_num: 4324.000; predict_num: 6529.000; gold_num: 8072.000; precision: 0.662; recall: 0.536; f1: 0.592
+2025-07-18 20:35:26 - INFO - Epoch 27/100
+2025-07-18 20:38:26 - INFO - - Val metrics:
+correct_num: 4151.000; predict_num: 6130.000; gold_num: 8072.000; precision: 0.677; recall: 0.514; f1: 0.585
+2025-07-18 20:38:28 - INFO - Epoch 28/100
+2025-07-18 20:41:29 - INFO - - Val metrics:
+correct_num: 4529.000; predict_num: 6880.000; gold_num: 8072.000; precision: 0.658; recall: 0.561; f1: 0.606
+2025-07-18 20:41:35 - INFO - - Found new best F1
+2025-07-18 20:41:35 - INFO - Epoch 29/100
+2025-07-18 20:44:36 - INFO - - Val metrics:
+correct_num: 4434.000; predict_num: 6500.000; gold_num: 8072.000; precision: 0.682; recall: 0.549; f1: 0.609
+2025-07-18 20:44:42 - INFO - - Found new best F1
+2025-07-18 20:44:42 - INFO - Epoch 30/100
+2025-07-18 20:47:43 - INFO - - Val metrics:
+correct_num: 4449.000; predict_num: 6654.000; gold_num: 8072.000; precision: 0.669; recall: 0.551; f1: 0.604
+2025-07-18 20:47:45 - INFO - Epoch 31/100
+2025-07-18 20:50:46 - INFO - - Val metrics:
+correct_num: 4497.000; predict_num: 6702.000; gold_num: 8072.000; precision: 0.671; recall: 0.557; f1: 0.609
+2025-07-18 20:50:53 - INFO - - Found new best F1
+2025-07-18 20:50:53 - INFO - Epoch 32/100
+2025-07-18 20:53:55 - INFO - - Val metrics:
+correct_num: 4384.000; predict_num: 6620.000; gold_num: 8072.000; precision: 0.662; recall: 0.543; f1: 0.597
+2025-07-18 20:53:57 - INFO - Epoch 33/100
+2025-07-18 20:56:58 - INFO - - Val metrics:
+correct_num: 4246.000; predict_num: 6080.000; gold_num: 8072.000; precision: 0.698; recall: 0.526; f1: 0.600
+2025-07-18 20:57:00 - INFO - Epoch 34/100
+2025-07-18 20:59:59 - INFO - - Val metrics:
+correct_num: 4411.000; predict_num: 6339.000; gold_num: 8072.000; precision: 0.696; recall: 0.546; f1: 0.612
+2025-07-18 21:00:06 - INFO - - Found new best F1
+2025-07-18 21:00:06 - INFO - Epoch 35/100
+2025-07-18 21:03:06 - INFO - - Val metrics:
+correct_num: 4602.000; predict_num: 6883.000; gold_num: 8072.000; precision: 0.669; recall: 0.570; f1: 0.615
+2025-07-18 21:03:13 - INFO - - Found new best F1
+2025-07-18 21:03:13 - INFO - Epoch 36/100
+2025-07-18 21:06:14 - INFO - - Val metrics:
+correct_num: 4616.000; predict_num: 6748.000; gold_num: 8072.000; precision: 0.684; recall: 0.572; f1: 0.623
+2025-07-18 21:06:20 - INFO - - Found new best F1
+2025-07-18 21:06:20 - INFO - Epoch 37/100
+2025-07-18 21:09:18 - INFO - - Val metrics:
+correct_num: 4490.000; predict_num: 6557.000; gold_num: 8072.000; precision: 0.685; recall: 0.556; f1: 0.614
+2025-07-18 21:09:21 - INFO - Epoch 38/100
+2025-07-18 21:12:22 - INFO - - Val metrics:
+correct_num: 4621.000; predict_num: 6997.000; gold_num: 8072.000; precision: 0.660; recall: 0.572; f1: 0.613
+2025-07-18 21:12:24 - INFO - Epoch 39/100
+2025-07-18 21:15:23 - INFO - - Val metrics:
+correct_num: 4455.000; predict_num: 6634.000; gold_num: 8072.000; precision: 0.672; recall: 0.552; f1: 0.606
+2025-07-18 21:15:25 - INFO - Epoch 40/100
+2025-07-18 21:18:27 - INFO - - Val metrics:
+correct_num: 4637.000; predict_num: 6839.000; gold_num: 8072.000; precision: 0.678; recall: 0.574; f1: 0.622
+2025-07-18 21:18:29 - INFO - Epoch 41/100
+2025-07-18 21:21:29 - INFO - - Val metrics:
+correct_num: 4534.000; predict_num: 6634.000; gold_num: 8072.000; precision: 0.683; recall: 0.562; f1: 0.617
+2025-07-18 21:21:31 - INFO - Epoch 42/100
+2025-07-18 21:24:32 - INFO - - Val metrics:
+correct_num: 4440.000; predict_num: 6527.000; gold_num: 8072.000; precision: 0.680; recall: 0.550; f1: 0.608
+2025-07-18 21:24:35 - INFO - Epoch 43/100
+2025-07-18 21:27:37 - INFO - - Val metrics:
+correct_num: 4589.000; predict_num: 6634.000; gold_num: 8072.000; precision: 0.692; recall: 0.569; f1: 0.624
+2025-07-18 21:27:44 - INFO - - Found new best F1
+2025-07-18 21:27:44 - INFO - Epoch 44/100
+2025-07-18 21:30:46 - INFO - - Val metrics:
+correct_num: 4539.000; predict_num: 6369.000; gold_num: 8072.000; precision: 0.713; recall: 0.562; f1: 0.629
+2025-07-18 21:30:52 - INFO - - Found new best F1
+2025-07-18 21:30:52 - INFO - Epoch 45/100
+2025-07-18 21:33:53 - INFO - - Val metrics:
+correct_num: 4558.000; predict_num: 6409.000; gold_num: 8072.000; precision: 0.711; recall: 0.565; f1: 0.630
+2025-07-18 21:34:00 - INFO - - Found new best F1
+2025-07-18 21:34:00 - INFO - Epoch 46/100
+2025-07-18 21:37:01 - INFO - - Val metrics:
+correct_num: 4432.000; predict_num: 6216.000; gold_num: 8072.000; precision: 0.713; recall: 0.549; f1: 0.620
+2025-07-18 21:37:04 - INFO - Epoch 47/100
+2025-07-18 21:40:05 - INFO - - Val metrics:
+correct_num: 4411.000; predict_num: 6236.000; gold_num: 8072.000; precision: 0.707; recall: 0.546; f1: 0.617
+2025-07-18 21:40:08 - INFO - Epoch 48/100
+2025-07-18 21:43:08 - INFO - - Val metrics:
+correct_num: 4560.000; predict_num: 6360.000; gold_num: 8072.000; precision: 0.717; recall: 0.565; f1: 0.632
+2025-07-18 21:43:14 - INFO - - Found new best F1
+2025-07-18 21:43:14 - INFO - Epoch 49/100
+2025-07-18 21:46:16 - INFO - - Val metrics:
+correct_num: 4503.000; predict_num: 6439.000; gold_num: 8072.000; precision: 0.699; recall: 0.558; f1: 0.621
+2025-07-18 21:46:19 - INFO - Epoch 50/100
+2025-07-18 21:49:19 - INFO - - Val metrics:
+correct_num: 4693.000; predict_num: 6812.000; gold_num: 8072.000; precision: 0.689; recall: 0.581; f1: 0.631
+2025-07-18 21:49:21 - INFO - Epoch 51/100
+2025-07-18 21:52:23 - INFO - - Val metrics:
+correct_num: 4548.000; predict_num: 6280.000; gold_num: 8072.000; precision: 0.724; recall: 0.563; f1: 0.634
+2025-07-18 21:52:29 - INFO - - Found new best F1
+2025-07-18 21:52:29 - INFO - Epoch 52/100
+2025-07-18 21:55:31 - INFO - - Val metrics:
+correct_num: 4568.000; predict_num: 6471.000; gold_num: 8072.000; precision: 0.706; recall: 0.566; f1: 0.628
+2025-07-18 21:55:34 - INFO - Epoch 53/100
+2025-07-18 21:58:34 - INFO - - Val metrics:
+correct_num: 4513.000; predict_num: 6291.000; gold_num: 8072.000; precision: 0.717; recall: 0.559; f1: 0.628
+2025-07-18 21:58:36 - INFO - Epoch 54/100
+2025-07-18 22:01:38 - INFO - - Val metrics:
+correct_num: 4423.000; predict_num: 6058.000; gold_num: 8072.000; precision: 0.730; recall: 0.548; f1: 0.626
+2025-07-18 22:01:40 - INFO - Epoch 55/100
+2025-07-18 22:04:42 - INFO - - Val metrics:
+correct_num: 4555.000; predict_num: 6371.000; gold_num: 8072.000; precision: 0.715; recall: 0.564; f1: 0.631
+2025-07-18 22:04:44 - INFO - Epoch 56/100
+2025-07-18 22:07:45 - INFO - - Val metrics:
+correct_num: 4538.000; predict_num: 6271.000; gold_num: 8072.000; precision: 0.724; recall: 0.562; f1: 0.633
+2025-07-18 22:07:48 - INFO - Epoch 57/100
+2025-07-18 22:10:49 - INFO - - Val metrics:
+correct_num: 4579.000; predict_num: 6398.000; gold_num: 8072.000; precision: 0.716; recall: 0.567; f1: 0.633
+2025-07-18 22:10:52 - INFO - Epoch 58/100
+2025-07-18 22:13:52 - INFO - - Val metrics:
+correct_num: 4516.000; predict_num: 6145.000; gold_num: 8072.000; precision: 0.735; recall: 0.559; f1: 0.635
+2025-07-18 22:13:59 - INFO - - Found new best F1
+2025-07-18 22:13:59 - INFO - Epoch 59/100
+2025-07-18 22:16:59 - INFO - - Val metrics:
+correct_num: 4552.000; predict_num: 6421.000; gold_num: 8072.000; precision: 0.709; recall: 0.564; f1: 0.628
+2025-07-18 22:17:02 - INFO - Epoch 60/100
+2025-07-18 22:20:02 - INFO - - Val metrics:
+correct_num: 4519.000; predict_num: 6076.000; gold_num: 8072.000; precision: 0.744; recall: 0.560; f1: 0.639
+2025-07-18 22:20:09 - INFO - - Found new best F1
+2025-07-18 22:20:09 - INFO - Epoch 61/100
+2025-07-18 22:23:11 - INFO - - Val metrics:
+correct_num: 4639.000; predict_num: 6616.000; gold_num: 8072.000; precision: 0.701; recall: 0.575; f1: 0.632
+2025-07-18 22:23:13 - INFO - Epoch 62/100
+2025-07-18 22:26:14 - INFO - - Val metrics:
+correct_num: 4737.000; predict_num: 6725.000; gold_num: 8072.000; precision: 0.704; recall: 0.587; f1: 0.640
+2025-07-18 22:26:21 - INFO - - Found new best F1
+2025-07-18 22:26:21 - INFO - Epoch 63/100
+2025-07-18 22:29:23 - INFO - - Val metrics:
+correct_num: 4614.000; predict_num: 6319.000; gold_num: 8072.000; precision: 0.730; recall: 0.572; f1: 0.641
+2025-07-18 22:29:30 - INFO - - Found new best F1
+2025-07-18 22:29:30 - INFO - Epoch 64/100
+2025-07-18 22:32:30 - INFO - - Val metrics:
+correct_num: 4561.000; predict_num: 6170.000; gold_num: 8072.000; precision: 0.739; recall: 0.565; f1: 0.640
+2025-07-18 22:32:33 - INFO - Epoch 65/100
+2025-07-18 22:35:34 - INFO - - Val metrics:
+correct_num: 4605.000; predict_num: 6379.000; gold_num: 8072.000; precision: 0.722; recall: 0.570; f1: 0.637
+2025-07-18 22:35:36 - INFO - Epoch 66/100
+2025-07-18 22:38:38 - INFO - - Val metrics:
+correct_num: 4676.000; predict_num: 6435.000; gold_num: 8072.000; precision: 0.727; recall: 0.579; f1: 0.645
+2025-07-18 22:38:45 - INFO - - Found new best F1
+2025-07-18 22:38:45 - INFO - Epoch 67/100
+2025-07-18 22:41:46 - INFO - - Val metrics:
+correct_num: 4600.000; predict_num: 6217.000; gold_num: 8072.000; precision: 0.740; recall: 0.570; f1: 0.644
+2025-07-18 22:41:48 - INFO - Epoch 68/100
+2025-07-18 22:44:48 - INFO - - Val metrics:
+correct_num: 4590.000; predict_num: 6183.000; gold_num: 8072.000; precision: 0.742; recall: 0.569; f1: 0.644
+2025-07-18 22:44:51 - INFO - Epoch 69/100
+2025-07-18 22:47:52 - INFO - - Val metrics:
+correct_num: 4627.000; predict_num: 6260.000; gold_num: 8072.000; precision: 0.739; recall: 0.573; f1: 0.646
+2025-07-18 22:47:58 - INFO - - Found new best F1
+2025-07-18 22:47:58 - INFO - Epoch 70/100
+2025-07-18 22:50:58 - INFO - - Val metrics:
+correct_num: 4582.000; predict_num: 6215.000; gold_num: 8072.000; precision: 0.737; recall: 0.568; f1: 0.641
+2025-07-18 22:51:00 - INFO - Epoch 71/100
+2025-07-18 22:54:00 - INFO - - Val metrics:
+correct_num: 4598.000; predict_num: 6166.000; gold_num: 8072.000; precision: 0.746; recall: 0.570; f1: 0.646
+2025-07-18 22:54:07 - INFO - - Found new best F1
+2025-07-18 22:54:07 - INFO - Epoch 72/100
+2025-07-18 22:57:07 - INFO - - Val metrics:
+correct_num: 4663.000; predict_num: 6277.000; gold_num: 8072.000; precision: 0.743; recall: 0.578; f1: 0.650
+2025-07-18 22:57:14 - INFO - - Found new best F1
+2025-07-18 22:57:14 - INFO - Epoch 73/100
+2025-07-18 23:00:15 - INFO - - Val metrics:
+correct_num: 4635.000; predict_num: 6240.000; gold_num: 8072.000; precision: 0.743; recall: 0.574; f1: 0.648
+2025-07-18 23:00:18 - INFO - Epoch 74/100
+2025-07-18 23:03:18 - INFO - - Val metrics:
+correct_num: 4610.000; predict_num: 6208.000; gold_num: 8072.000; precision: 0.743; recall: 0.571; f1: 0.646
+2025-07-18 23:03:21 - INFO - Epoch 75/100
+2025-07-18 23:06:22 - INFO - - Val metrics:
+correct_num: 4590.000; predict_num: 6197.000; gold_num: 8072.000; precision: 0.741; recall: 0.569; f1: 0.643
+2025-07-18 23:06:24 - INFO - Epoch 76/100
+2025-07-18 23:09:25 - INFO - - Val metrics:
+correct_num: 4608.000; predict_num: 6222.000; gold_num: 8072.000; precision: 0.741; recall: 0.571; f1: 0.645
+2025-07-18 23:09:28 - INFO - Epoch 77/100
+2025-07-18 23:12:29 - INFO - - Val metrics:
+correct_num: 4597.000; predict_num: 6234.000; gold_num: 8072.000; precision: 0.737; recall: 0.569; f1: 0.643
+2025-07-18 23:12:31 - INFO - Epoch 78/100
+2025-07-18 23:15:34 - INFO - - Val metrics:
+correct_num: 4611.000; predict_num: 6179.000; gold_num: 8072.000; precision: 0.746; recall: 0.571; f1: 0.647
+2025-07-18 23:15:36 - INFO - Epoch 79/100
+2025-07-18 23:18:38 - INFO - - Val metrics:
+correct_num: 4581.000; predict_num: 6123.000; gold_num: 8072.000; precision: 0.748; recall: 0.568; f1: 0.645
+2025-07-18 23:18:40 - INFO - Epoch 80/100
+2025-07-18 23:21:42 - INFO - - Val metrics:
+correct_num: 4634.000; predict_num: 6247.000; gold_num: 8072.000; precision: 0.742; recall: 0.574; f1: 0.647
+2025-07-18 23:21:44 - INFO - Epoch 81/100
+2025-07-18 23:24:46 - INFO - - Val metrics:
+correct_num: 4614.000; predict_num: 6201.000; gold_num: 8072.000; precision: 0.744; recall: 0.572; f1: 0.647
+2025-07-18 23:24:48 - INFO - Epoch 82/100
+2025-07-18 23:27:50 - INFO - - Val metrics:
+correct_num: 4637.000; predict_num: 6258.000; gold_num: 8072.000; precision: 0.741; recall: 0.574; f1: 0.647
+2025-07-18 23:27:53 - INFO - Epoch 83/100
+2025-07-18 23:30:53 - INFO - - Val metrics:
+correct_num: 4642.000; predict_num: 6230.000; gold_num: 8072.000; precision: 0.745; recall: 0.575; f1: 0.649
+2025-07-18 23:30:55 - INFO - Epoch 84/100
+2025-07-18 23:33:55 - INFO - - Val metrics:
+correct_num: 4631.000; predict_num: 6217.000; gold_num: 8072.000; precision: 0.745; recall: 0.574; f1: 0.648
+2025-07-18 23:33:57 - INFO - Epoch 85/100
+2025-07-18 23:36:59 - INFO - - Val metrics:
+correct_num: 4701.000; predict_num: 6305.000; gold_num: 8072.000; precision: 0.746; recall: 0.582; f1: 0.654
+2025-07-18 23:37:06 - INFO - - Found new best F1
+2025-07-18 23:37:06 - INFO - Epoch 86/100
+2025-07-18 23:40:07 - INFO - - Val metrics:
+correct_num: 4688.000; predict_num: 6271.000; gold_num: 8072.000; precision: 0.748; recall: 0.581; f1: 0.654
+2025-07-18 23:40:10 - INFO - Epoch 87/100
+2025-07-18 23:43:09 - INFO - - Val metrics:
+correct_num: 4665.000; predict_num: 6246.000; gold_num: 8072.000; precision: 0.747; recall: 0.578; f1: 0.652
+2025-07-18 23:43:12 - INFO - Epoch 88/100
+2025-07-18 23:46:12 - INFO - - Val metrics:
+correct_num: 4663.000; predict_num: 6207.000; gold_num: 8072.000; precision: 0.751; recall: 0.578; f1: 0.653
+2025-07-18 23:46:14 - INFO - Epoch 89/100
+2025-07-18 23:49:15 - INFO - - Val metrics:
+correct_num: 4692.000; predict_num: 6269.000; gold_num: 8072.000; precision: 0.748; recall: 0.581; f1: 0.654
+2025-07-18 23:49:22 - INFO - - Found new best F1
+2025-07-18 23:49:22 - INFO - Epoch 90/100
+2025-07-18 23:52:23 - INFO - - Val metrics:
+correct_num: 4691.000; predict_num: 6263.000; gold_num: 8072.000; precision: 0.749; recall: 0.581; f1: 0.654
+2025-07-18 23:52:29 - INFO - - Found new best F1
+2025-07-18 23:52:29 - INFO - Epoch 91/100
+2025-07-18 23:55:30 - INFO - - Val metrics:
+correct_num: 4698.000; predict_num: 6303.000; gold_num: 8072.000; precision: 0.745; recall: 0.582; f1: 0.654
+2025-07-18 23:55:33 - INFO - Epoch 92/100
+2025-07-18 23:58:34 - INFO - - Val metrics:
+correct_num: 4662.000; predict_num: 6205.000; gold_num: 8072.000; precision: 0.751; recall: 0.578; f1: 0.653
+2025-07-18 23:58:36 - INFO - Epoch 93/100
+2025-07-19 00:01:38 - INFO - - Val metrics:
+correct_num: 4665.000; predict_num: 6245.000; gold_num: 8072.000; precision: 0.747; recall: 0.578; f1: 0.652
+2025-07-19 00:01:41 - INFO - Epoch 94/100
+2025-07-19 00:04:42 - INFO - - Val metrics:
+correct_num: 4663.000; predict_num: 6209.000; gold_num: 8072.000; precision: 0.751; recall: 0.578; f1: 0.653
+2025-07-19 00:04:44 - INFO - Epoch 95/100
+2025-07-19 00:07:45 - INFO - - Val metrics:
+correct_num: 4654.000; predict_num: 6197.000; gold_num: 8072.000; precision: 0.751; recall: 0.577; f1: 0.652
+2025-07-19 00:07:47 - INFO - Epoch 96/100
+2025-07-19 00:10:48 - INFO - - Val metrics:
+correct_num: 4659.000; predict_num: 6206.000; gold_num: 8072.000; precision: 0.751; recall: 0.577; f1: 0.653
+2025-07-19 00:10:50 - INFO - Epoch 97/100
+2025-07-19 00:13:50 - INFO - - Val metrics:
+correct_num: 4657.000; predict_num: 6201.000; gold_num: 8072.000; precision: 0.751; recall: 0.577; f1: 0.653
+2025-07-19 00:13:53 - INFO - Epoch 98/100
+2025-07-19 00:16:53 - INFO - - Val metrics:
+correct_num: 4658.000; predict_num: 6203.000; gold_num: 8072.000; precision: 0.751; recall: 0.577; f1: 0.653
+2025-07-19 00:16:56 - INFO - Epoch 99/100
+2025-07-19 00:19:56 - INFO - - Val metrics:
+correct_num: 4660.000; predict_num: 6203.000; gold_num: 8072.000; precision: 0.751; recall: 0.577; f1: 0.653
+2025-07-19 00:19:58 - INFO - Epoch 100/100
+2025-07-19 00:22:59 - INFO - - Val metrics:
+correct_num: 4659.000; predict_num: 6202.000; gold_num: 8072.000; precision: 0.751; recall: 0.577; f1: 0.653
+2025-07-19 00:23:01 - INFO - Epoch 100, Best val f1: 00.65
